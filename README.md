@@ -1,50 +1,98 @@
-# Game Design Document: "Sikrit: Chronicles of the Enigmatic"
+# Sikrit: Chronicles of the Enigmatic
 
-## Title: Sikrit
+![Sikrit Banner](banner.png)
 
-### Studio: KD Production
+## Introduction
 
-### Date: Created on 5th August 2023
+"Sikrit: Chronicles of the Enigmatic" is an immersive 2D platformer game developed by KD Production. Embark on a journey through Indian mythology and culture, as you explore hidden realms and uncover ancient mysteries.
 
-## Introduction:
+## Table of Contents
 
-### Concept:
-"Sikrit: Chronicles of the Enigmatic" is an immersive 2D platformer game that beckons players to embark on a journey of mystery and discovery, immersing them in the hidden realms of Indian mythology and culture. Set against the backdrop of a world steeped in ancient legends and traditions, players unravel enigmatic puzzles, encounter mythical beings, and explore the secrets that lie shrouded in the mists of time.
+- [Introduction](#introduction)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Contributing](#contributing)
+  - [Code Guidelines](#code-guidelines)
+  - [Art and Design](#art-and-design)
+  - [Documentation](#documentation)
+  - [Testing](#testing)
+- [License](#license)
 
-### Target Audience:
-The game is tailored for PC gamers who appreciate 2D platformers, intriguing narratives, and cultural exploration.
+## Getting Started
 
-### Objective of the Game:
-The main objective of "Sikrit" is to guide players through an enthralling narrative filled with challenging platforming sequences, puzzles, and mythical encounters. As players progress, they uncover the mysteries surrounding the titular enigma, piecing together clues to unveil the truth behind a profound secret.
+### Prerequisites
 
-### Unique Selling Point:
-The unique blend of captivating 2D platforming gameplay, Indian mythology, and cultural immersion distinguishes "Sikrit" as a game that offers both entertainment and educational value. The integration of Indian cultural elements, alongside engaging mechanics, creates a distinctive experience for players seeking an enchanting journey through a world rich with legends.
+Before you can contribute to "Sikrit," make sure you have the following tools installed:
 
-## Mechanics:
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/) (for development)
 
-### Core Gameplay Mechanics:
-1. **Platforming Exploration:** Players navigate diverse 2D platforming levels inspired by Indian culture, with each level featuring intricate puzzles and challenges rooted in mythology.
+### Installation
 
-2. **Mythical Encounters:** Players interact with mythical beings and legendary characters in a 2D platforming context, each encounter contributing to the game's immersive storytelling.
+1. **Clone** your forked repository to your local machine:
 
-### Player Controls:
-Players control their character's movement, jumping, and interactions using keyboard and/or controller inputs, ensuring precise and responsive gameplay.
+   ```bash
+   git clone https://github.com/ErrorDoc404/sikrit.git
+   ```
 
-### Game Rules and Systems:
-- **Narrative Choices:** The game features branching storylines, allowing players to make choices that influence the direction of the narrative and their character's journey.
-- **Artifact Collection:** Players collect culturally significant artifacts within the 2D levels, aiding in puzzle-solving and progression.
-- **Cultural Insights:** An in-game encyclopedia provides players with cultural information about Indian mythology, enhancing their understanding and appreciation.
+2. Create a new branch for your contribution:
 
-## Aesthetic and Designs:
+   ```bash
+   git checkout -b feature/new-feature
+   ```
 
-### Visual Style:
-"Sikrit" boasts a visually striking 2D art style, drawing inspiration from Indian art and architecture. Vibrant colors, intricate patterns, and authentic cultural details create a captivating and immersive atmosphere within the 2D platforming world.
+3. Make your changes, whether it's code, art assets, or documentation.
 
-### Audio Design:
-The game's audio design features a captivating soundtrack comprising traditional Indian instruments, ambient sounds, and evocative melodies that enhance the 2D platforming experience.
+4. **Commit** your changes with a descriptive commit message:
 
-### UI and UX:
-The user interface is designed for PC gaming, offering intuitive keyboard and controller inputs. The UI incorporates traditional Indian design motifs while ensuring ease of navigation and an enjoyable 2D platforming experience.
+   ```bash
+   git commit -m "Add new feature: XYZ"
+   ```
 
-## Conclusion:
-"Sikrit: Chronicles of the Enigmatic" is a compelling 2D platformer game that seamlessly integrates Indian mythology, culture, and folklore into an engaging gaming experience on PC. By combining captivating 2D platforming mechanics with an immersive aesthetic, the game offers players an opportunity to embark on a journey of discovery that spans across cultural boundaries. As players leap through challenging levels and solve intricate puzzles, they enrich their understanding of Indian heritage while experiencing an entertaining and enchanting 2D platforming adventure.
+5. **Push** your changes to your forked repository:
+
+   ```bash
+   git push origin feature/new-feature
+   ```
+
+6. Create a **Pull Request (PR)** to the main repository. Provide a clear title and description of your changes.
+
+7. Provile add the delails in the ticket issues and marked the status as inReview.
+
+## Contributors
+
+Thanks to the following contributors who have made this project possible:
+
+<a href="https://github.com/ErrorDoc404/Sikrit/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=ErrorDoc404/Sikrit" />
+</a>
+
+## Contributing
+
+We welcome contributions from the community to make "Sikrit" even better! Whether you're a developer, artist, writer, or just passionate about games, there are many ways to get involved.
+
+### Code Guidelines
+
+- Follow our coding style and conventions.
+- Write clear and concise code comments.
+- Ensure your code is well-tested before submitting a PR.
+
+### Art and Design
+
+If you're an artist or designer, you can contribute by creating 2D assets, character designs, or UI elements that align with the Indian cultural theme.
+
+### Documentation
+
+Help improve the game's documentation, including this README file and in-game cultural insights. Make sure it's clear and informative for players.
+
+### Testing
+
+Playtest the game, report bugs, and provide feedback on gameplay, mechanics, and user experience.
+
+## License
+
+"Sikrit: Chronicles of the Enigmatic" is released under the [MIT License](LICENSE.md).
+```
+
+This enhanced `README.md` includes a table of contents for easy navigation, clear installation instructions, and detailed sections for contributing, including code guidelines, art and design, documentation, and testing.

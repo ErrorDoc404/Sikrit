@@ -1,0 +1,15 @@
+{
+  "projectName": "Sikrit",
+  "projectOwner": "ErrorDoc404",
+  "repoType": "github",
+  "repoHost": "https://github.com/ErrorDoc404/Sikrit",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "none",
+  "contributors": [],
+  "contributorsPerLine": 7,
+  "linkToUsage": false
+}
