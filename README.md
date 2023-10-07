@@ -25,8 +25,9 @@
 
 Before you can contribute to "Sikrit," make sure you have the following tools installed:
 
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/) (for development)
+- [Git](https://git-scm.com/) or [GitHub Desktop](https://desktop.github.com/)
+- [Unity Hub](https://unity.com/download) (for managing Unity versions)
+- [Unity 2022.3.7f1](https://unity3d.com/get-unity/download/archive) (for development)
 
 ### Installation
 
