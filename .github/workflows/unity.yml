@@ -1,0 +1,33 @@
+name: Unity Build and Test
+
+on:
+  push:
+    branches:
+      - main  # You can specify the branch you want to trigger this on
+
+jobs:
+  build:
+    name: Build and Test Unity Project
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v2
+
+    - name: Set up Unity
+      uses: game-ci/setup-unity@v1
+      with:
+        unityVersion: 2022.3  # Change this to your Unity version
+
+    - name: Unity - Builder
+      uses: game-ci/unity-builder@v3.1.0
+
+    - name: Run Tests
+      run: |
+        # Add your Unity test running command here
+
+    - name: Archive Artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: build-artifacts
+        path: path/to/your/build/folder  # Change this to your Unity build folder
